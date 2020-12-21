@@ -1,81 +1,60 @@
-== Asciidoc cheatsheet for GitHub
+== Introducing PICInfo
 
 
-=== Introduction
+Welcome to the PICInfo software.  An support application for Great Cow BASIC.
 
-These are the pages and the toolchain used to generate the PICkit: AutoWatch Help system.
+This application supports Microchip PIC microcontrollers only, for AVR see AVRInfo.
+
+This is a free application that generates configuration code to be inserted into your project.&#160;&#160;
+Using an intuitive interface, it enables and configures the coniguration functions specific to your application.
+
+The application also provides details of the microcontroller in terms of parameters like registers, register bits, interrupts.&#160;&#160;
+PICInfo supports 8-bit PIC microcontrollers.
 
 
-This is a simple cheat sheet for editors of the Great Cow BASIC Help source files.
 
-=== GitHub limitations
+image::FrontScreen.PNG[graphic,align="center", auto]
 
-This cheatsheet contains small part of Asciidoc markup which works and
-looks fine on GitHub.&#160;&#160;There is also link:https://github.com/powerman/asciidoc-cheatsheet/blob/master/README.adoc[full cheatsheet], but
-for now its main use is to show bugs, design issues, GitHub limitations
-and other differences from http://powerman.name/doc/asciidoc[how Asciidoc
-cheatsheet should really looks like].
 
-=== Help
+{empty} +
+{empty} +
+*Operating System Support*
 
-The format is pre-determined.&#160;&#160;Meaning the layout and the style sheets are already mandated, please refer to existing Help pages as a reference.&#160;&#160;These notes are to enable the casual editor insights into some of the tricks when editing Asciidoc's.
+PICInfo is released with support for Windows, Linux and macOS.
 
-To add an example hard space, use the following:
+The application for Windows is included in the Great Cow BASIC release.
 
-=== Cheat Sheet
+{empty} +
+{empty} +
+*Operating System Specific Build*
 
-This is an example of how to show user code.  Four dashes, then code indented by two tabs, terminated by four dashes.
-
-.An example of showing  user code
-----
-    ----
-
-    GLCDCLS
-
-    ----
-----
+As the software is Open Source you can create the application for any of the supported operating systems.&#160;&#160;
+Download and install the XOJO development software, load the source PICInfo project and enjoy.&#160;&#160;
+You can modify the project and share.
+{empty} +
+{empty} +
+{empty} +
 {empty} +
 
+*First use of the application*
 
-This is how to added a hard space. Always add a hard speace at the end of each sentence in a paragraph.
+The application requires a default Great Cow BASIC default CHIPDATA folder.
+The application will show the following `Initialising` as the selected microcontroller.
+The pictures show the initial start up message.
 
-.An example hard space
-----
-&#160;&#160;
-----
+image::InitialWindow.PNG[graphic,align="center", auto]
+
+Select `OK` and then select `EDIT/PREFERENCES` to set the default Great Cow BASIC default CHIPDATA folder.
+As show below:
+
+image::Preferences.PNG[graphic,align="center", auto]
 {empty} +
-To add a table, using the following:
-
-.An example table
-----
-[cols="3,4,4", options="header,autowidth"]
-|===
-|Constant
-|Purpose
-|Default
-
-|`String`
-|The width parameter of the String
-|Set automatically
-
-|`String2`
-|The height parameter of the String
-|Set automatically
-
-|`String3`
-|Specifies the String.
-|6
-|===
-
-----
-
-
-
-.An example empty line
-----
 {empty} +
-----
+The dialog will validate the selected folder. &#160;&#160;The folder *MUST* contain the chipdata.def file.
 
 
 
-++++
+{empty} +
+{empty} +
+{empty} +
+{empty} +
