@@ -13,7 +13,7 @@ PICInfo supports 8-bit PIC microcontrollers.
 
 
 
-image::FrontScreen.PNG[graphic,align="center", auto]
+image::./images/FrontScreen.PNG[graphic,align="center", auto]
 
 
 {empty} +
