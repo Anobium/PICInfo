@@ -13,7 +13,7 @@ PICInfo supports 8-bit PIC microcontrollers.
 
 
 
-image::source/images/FrontScreen.PNG[graphic,align="center", auto]
+image::https://github.com/Anobium/PICInfo/blob/main/source/images/FrontScreenDetails.png?raw=true[graphic,align="center", auto]
 
 
 {empty} +
@@ -36,25 +36,3 @@ You can modify the project and share.
 {empty} +
 {empty} +
 
-*First use of the application*
-
-The application requires a default Great Cow BASIC default CHIPDATA folder.
-The application will show the following `Initialising` as the selected microcontroller.
-The pictures show the initial start up message.
-
-image::InitialWindow.PNG[graphic,align="center", auto]
-
-Select `OK` and then select `EDIT/PREFERENCES` to set the default Great Cow BASIC default CHIPDATA folder.
-As show below:
-
-image::Preferences.PNG[graphic,align="center", auto]
-{empty} +
-{empty} +
-The dialog will validate the selected folder. &#160;&#160;The folder *MUST* contain the chipdata.def file.
-
-
-
-{empty} +
-{empty} +
-{empty} +
-{empty} +
