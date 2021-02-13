@@ -15,8 +15,8 @@
 
 </div>
 
-Welcome to the PICInfo software. An support application for Great Cow
-BASIC.
+Welcome to the PICInfo software. A support application for the Great Cow
+BASIC 8-bit compiler.
 
 This application supports Microchip PIC microcontrollers only, for AVR
 see AVRInfo.

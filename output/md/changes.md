@@ -32,7 +32,7 @@
 <tr class="odd">
 <td style="text-align: center;"><p>ASCIIDOCs rendered</p></td>
 <td style="text-align: center;"><p>2020-12-21<br />
-11:41:53 GMT Standard Time</p></td>
+17:40:03 GMT Standard Time</p></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"><p>Master ToC information</p></td>
